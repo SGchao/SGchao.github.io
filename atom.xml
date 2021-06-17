@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-14T15:16:51.533Z</updated>
+  <updated>2021-06-17T05:16:13.603Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,19 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>如何用IDM扒站</title>
-    <link href="http://example.com/2021/06/14/%E5%A6%82%E4%BD%95%E7%94%A8IDM%E6%89%92%E7%AB%99/"/>
-    <id>http://example.com/2021/06/14/%E5%A6%82%E4%BD%95%E7%94%A8IDM%E6%89%92%E7%AB%99/</id>
-    <published>2021-06-14T15:11:29.000Z</published>
-    <updated>2021-06-14T15:16:51.533Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;怎么用IDM复制网站？&lt;/p&gt;</summary>
+    <title>中文显示测试</title>
+    <link href="http://example.com/posts/345/"/>
+    <id>http://example.com/posts/345/</id>
+    <published>2021-06-17T05:15:57.000Z</published>
+    <updated>2021-06-17T05:16:13.603Z</updated>
     
     
     
     
-    <category term="好玩的" scheme="http://example.com/tags/%E5%A5%BD%E7%8E%A9%E7%9A%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mmp</title>
+    <link href="http://example.com/posts/123/"/>
+    <id>http://example.com/posts/123/</id>
+    <published>2021-06-17T05:13:13.000Z</published>
+    <updated>2021-06-17T05:13:27.315Z</updated>
+    
+    
+    
+    
     
   </entry>
   
