@@ -167,7 +167,20 @@
       
     <div class="article-entry" itemprop="articleBody">
        
-   
+  <h1 id="用-Typora-写-Hexo-博客"><a href="#用-Typora-写-Hexo-博客" class="headerlink" title="用 Typora 写 Hexo 博客"></a>用 Typora 写 Hexo 博客</h1><p> 发表于 2018-07-01 更新于 2021-01-01  分类于 <a target="_blank" rel="noopener" href="https://zhangnew.com/categories/Blog-System/">Blog System</a> ， <a target="_blank" rel="noopener" href="https://zhangnew.com/categories/Blog-System/Hexo/">Hexo</a>  阅读次数：</p>
+<p>Typora 是一个非常优秀的 Markdown 编辑器，与大部分编辑器不同，它使用了一种所及即所得的编辑模式，输入 Markdown 格式的文字，实时渲染。</p>
+<p>我用的 Hexo 博客系统，里面的图片路径比较特殊，<code>/images/xx.png</code> 这种路径，一般编辑器是无法识别的，去网上搜了一圈也没找到到底如何在 Typora 中设置，最后在<a target="_blank" rel="noopener" href="https://support.typora.io/Images/#relative-path-to-current-filefolder-default-behavior">官方文档</a>中找到了。</p>
+<blockquote>
+<p>If you’re using markdown for building websites, you may specify a URL prefix for image preview in local computer with property <code>typora-root-url</code> in YAML Front Matters.</p>
+<p>For example, input <code>typora-root-url:/User/Abner/Website/typora.io/</code> in YAML Front Matters, and then <code>![alt](/blog/img/test.png)</code> will be treated as <code>![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)</code> in typora.</p>
+<p>In new version, instead of manually input <code>typora-root-url</code> property, you could just click item from the menu bar <code>Edit</code> → <code>Image Tools</code> → <code>Use Image Root Path</code> to tell Typora to generate <code>typora-root-url</code> property automatically.</p>
+</blockquote>
+<p>所谓的 YAML 配置，就是在 Hexo 的文档头部加上最下面这一行：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 用 Typora 写 Hexo 博客</span><br><span class="line">tags:</span><br><span class="line">  - Hexo</span><br><span class="line">  - Typora</span><br><span class="line">categories:</span><br><span class="line">  - Blog System</span><br><span class="line">  - Hexo</span><br><span class="line">date: 2018-07-01 21:36:15</span><br><span class="line">typora-root-url: ../../source/</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>可以在 Typore 的菜单中选择 <code>编辑</code> → <code>图片工具</code> → <code>设置图片根目录</code> ，和手动加那一行的效果是一样的，也会把这个配置写到文档中。</p>
+<p><img src="/../images/%E5%8D%9A/biqigu.jpg" alt="biqigu"></p>
+ 
       <!-- reward -->
       
     </div>
