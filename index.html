@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>about |  上官朝のBlog</title>
+      <title> 上官朝のBlog</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -42,10 +42,106 @@
     
       
     <main class="content on">
-      <section class="outer">
-  <article
-  id="page-"
-  class="article article-type-page"
+      
+<section class="cover">
+    
+  <div class="cover-frame">
+    <div class="bg-box">
+      <img src="/images/cover1.jpg" alt="image frame" />
+    </div>
+    <div class="cover-inner text-center text-white">
+      <h1><a href="/">上官朝のBlog</a></h1>
+      <div id="subtitle-box">
+        
+        <span id="subtitle"></span>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="cover-learn-more">
+    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+
+<!-- Subtitle -->
+
+  <script>
+    try {
+      var typed = new Typed("#subtitle", {
+        strings: ['翩若惊鸿,婉若游龙', '千朝回盼，万载流芳', '镜中貌,月下影,隔帘形,睡初醒'],
+        startDelay: 0,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  </script>
+  
+<div id="main">
+  <section class="outer">
+  
+  
+  
+
+<div class="notice" style="margin-top:50px">
+    <i class="ri-heart-fill"></i>
+    <div class="notice-content" id="broad"></div>
+</div>
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
+
+<style>
+    .notice {
+        padding: 20px;
+        border: 1px dashed #e6e6e6;
+        color: #969696;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background: #fbfbfb50;
+        border-radius: 10px;
+    }
+
+    .notice i {
+        float: left;
+        color: #999;
+        font-size: 16px;
+        padding-right: 10px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    .notice-content {
+        display: initial;
+        vertical-align: middle;
+    }
+</style>
+  
+  <article class="articles">
+    
+    
+    
+    
+    <article
+  id="post-wc"
+  class="article article-type-post"
   itemscope
   itemprop="blogPost"
   data-scroll-reveal
@@ -54,19 +150,24 @@
     
     <header class="article-header">
        
-<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  about
-</h1>
+<h2 itemprop="name">
+  <a class="article-title" href="/posts/null/"
+    >wc</a> 
+</h2>
  
 
       
     </header>
-       
+     
+    <div class="article-meta">
+      <a href="/posts/null/" class="article-date">
+  <time datetime="2021-06-18T04:48:58.000Z" itemprop="datePublished">2021-06-18</time>
+</a>    
+    </div>
+      
     <div class="article-entry" itemprop="articleBody">
        
-  <p>我叫上官朝，又称深渊，爱好历史和乒乓球。<br>这是我简陋的博客，不定什么时候会写点东西，和一些大佬相比还是微不足道。<br>喜欢玩树莓派，单片机，目前在学《C++从入门到放弃》</p>
-<p>不管怎么样，上官朝竭诚为您服务</p>
- 
+   
       <!-- reward -->
       
     </div>
@@ -79,13 +180,19 @@
     </footer>
   </div>
 
-   
-   
+    
  
     
 </article>
 
+    
+  </article>
+  
+
+  
 </section>
+</div>
+
       <footer class="footer">
   <div class="outer">
     <ul>
