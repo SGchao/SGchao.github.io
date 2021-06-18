@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>about |  上官朝のBlog</title>
+      <title> 上官朝のBlog</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -42,10 +42,106 @@
     
       
     <main class="content on">
-      <section class="outer">
-  <article
-  id="page-"
-  class="article article-type-page"
+      
+<section class="cover">
+    
+  <div class="cover-frame">
+    <div class="bg-box">
+      <img src="/images/cover1.jpg" alt="image frame" />
+    </div>
+    <div class="cover-inner text-center text-white">
+      <h1><a href="/">上官朝のBlog</a></h1>
+      <div id="subtitle-box">
+        
+        <span id="subtitle"></span>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="cover-learn-more">
+    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+
+<!-- Subtitle -->
+
+  <script>
+    try {
+      var typed = new Typed("#subtitle", {
+        strings: ['翩若惊鸿,婉若游龙', '千朝回盼，万载流芳', '镜中貌,月下影,隔帘形,睡初醒'],
+        startDelay: 0,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  </script>
+  
+<div id="main">
+  <section class="outer">
+  
+  
+  
+
+<div class="notice" style="margin-top:50px">
+    <i class="ri-heart-fill"></i>
+    <div class="notice-content" id="broad"></div>
+</div>
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
+
+<style>
+    .notice {
+        padding: 20px;
+        border: 1px dashed #e6e6e6;
+        color: #969696;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background: #fbfbfb50;
+        border-radius: 10px;
+    }
+
+    .notice i {
+        float: left;
+        color: #999;
+        font-size: 16px;
+        padding-right: 10px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    .notice-content {
+        display: initial;
+        vertical-align: middle;
+    }
+</style>
+  
+  <article class="articles">
+    
+    
+    
+    
+    <article
+  id="post-博客"
+  class="article article-type-post"
   itemscope
   itemprop="blogPost"
   data-scroll-reveal
@@ -54,18 +150,36 @@
     
     <header class="article-header">
        
-<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  about
-</h1>
+<h2 itemprop="name">
+  <a class="article-title" href="/posts/null/"
+    >博客</a> 
+</h2>
  
 
       
     </header>
-       
+     
+    <div class="article-meta">
+      <a href="/posts/null/" class="article-date">
+  <time datetime="2021-06-18T05:05:47.000Z" itemprop="datePublished">2021-06-18</time>
+</a>    
+    </div>
+      
     <div class="article-entry" itemprop="articleBody">
        
-  <p>我叫上官朝，又称深渊，爱好历史和乒乓球。<br>这是我简陋的博客，不定什么时候会写点东西，和一些大佬相比还是微不足道。<br>喜欢玩树莓派，单片机，目前在学《C++从入门到放弃》</p>
-<p>不管怎么样，上官朝竭诚为您服务</p>
+  <h1 id="用-Typora-写-Hexo-博客"><a href="#用-Typora-写-Hexo-博客" class="headerlink" title="用 Typora 写 Hexo 博客"></a>用 Typora 写 Hexo 博客</h1><p> 发表于 2018-07-01 更新于 2021-01-01  分类于 <a target="_blank" rel="noopener" href="https://zhangnew.com/categories/Blog-System/">Blog System</a> ， <a target="_blank" rel="noopener" href="https://zhangnew.com/categories/Blog-System/Hexo/">Hexo</a>  阅读次数：</p>
+<p>Typora 是一个非常优秀的 Markdown 编辑器，与大部分编辑器不同，它使用了一种所及即所得的编辑模式，输入 Markdown 格式的文字，实时渲染。</p>
+<p>我用的 Hexo 博客系统，里面的图片路径比较特殊，<code>/images/xx.png</code> 这种路径，一般编辑器是无法识别的，去网上搜了一圈也没找到到底如何在 Typora 中设置，最后在<a target="_blank" rel="noopener" href="https://support.typora.io/Images/#relative-path-to-current-filefolder-default-behavior">官方文档</a>中找到了。</p>
+<blockquote>
+<p>If you’re using markdown for building websites, you may specify a URL prefix for image preview in local computer with property <code>typora-root-url</code> in YAML Front Matters.</p>
+<p>For example, input <code>typora-root-url:/User/Abner/Website/typora.io/</code> in YAML Front Matters, and then <code>![alt](/blog/img/test.png)</code> will be treated as <code>![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)</code> in typora.</p>
+<p>In new version, instead of manually input <code>typora-root-url</code> property, you could just click item from the menu bar <code>Edit</code> → <code>Image Tools</code> → <code>Use Image Root Path</code> to tell Typora to generate <code>typora-root-url</code> property automatically.</p>
+</blockquote>
+<p>所谓的 YAML 配置，就是在 Hexo 的文档头部加上最下面这一行：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 用 Typora 写 Hexo 博客</span><br><span class="line">tags:</span><br><span class="line">  - Hexo</span><br><span class="line">  - Typora</span><br><span class="line">categories:</span><br><span class="line">  - Blog System</span><br><span class="line">  - Hexo</span><br><span class="line">date: 2018-07-01 21:36:15</span><br><span class="line">typora-root-url: ../../source/</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>可以在 Typore 的菜单中选择 <code>编辑</code> → <code>图片工具</code> → <code>设置图片根目录</code> ，和手动加那一行的效果是一样的，也会把这个配置写到文档中。</p>
+<p><img src="/%E5%8D%9A%E5%AE%A2/biqigu.jpg"></p>
  
       <!-- reward -->
       
@@ -79,13 +193,19 @@
     </footer>
   </div>
 
-   
-   
+    
  
     
 </article>
 
+    
+  </article>
+  
+
+  
 </section>
+</div>
+
       <footer class="footer">
   <div class="outer">
     <ul>
