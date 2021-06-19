@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-18T12:17:13.094Z</updated>
+  <updated>2021-06-19T04:51:20.758Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自由通行——科学上网浏览器</title>
+    <link href="http://example.com/posts/2/"/>
+    <id>http://example.com/posts/2/</id>
+    <published>2021-06-19T04:36:03.000Z</published>
+    <updated>2021-06-19T04:51:20.758Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;科学谷歌高内核集合版&quot;&gt;&lt;a href=&quot;#科学谷歌高内核集合版&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="翻墙" scheme="http://example.com/categories/%E7%BF%BB%E5%A2%99/"/>
+    
+    
+    <category term="资源" scheme="http://example.com/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
   
   <entry>
     <title>用Typora写Hexo博客</title>
