@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>自由通行系列——科学上网</title>
+    <title>自由通行系列（科学上网）</title>
     <url>//posts/2.html</url>
-    <content><![CDATA[<h1 id="科学谷歌高内核集合版"><a href="#科学谷歌高内核集合版" class="headerlink" title="科学谷歌高内核集合版"></a>科学谷歌高内核集合版</h1><p><strong>2021年5月25日更新自由门版本7.96，发布无界版本12.02</strong></p>
+    <content><![CDATA[<p><img src="/images/%E8%87%AA%E7%94%B1%E9%80%9A%E8%A1%8C%E7%B3%BB%E5%88%97%E2%80%94%E2%80%94%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/%E7%BD%91%E7%BB%9C.png" alt="网络"></p>
+<h1 id="自-由-通-行"><a href="#自-由-通-行" class="headerlink" title="自 由 通 行"></a>自 由 通 行</h1><hr>
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>自由通行，在网络上畅通无阻</p>
+<p>以下，收集了各种五花八门的<del>科学</del>上网方式</p>
+<p>工具均来自互联网，与作者无关。禁止一切违法用途。</p>
+<p>库地址：<a href="https://github.com/SGchao/freepassage">Github</a></p>
 <span id="more"></span>
 
+
+<h1 id="科学谷歌高内核集合版"><a href="#科学谷歌高内核集合版" class="headerlink" title="科学谷歌高内核集合版"></a>科学谷歌高内核集合版</h1><p><strong>2021年5月25日更新自由门版本7.96，发布无界版本12.02</strong></p>
 <p>GitHub原地址：<a href="https://github.com/Alvin9999/new-pac/wiki/%E9%AB%98%E5%86%85%E6%A0%B8%E7%89%88">高内核版 · Alvin9999</a></p>
 <p><strong>2021年4月17日升级浏览器版本到90，升级clash和v2ray客户端到最新版本，增加SS-plugin工具，去掉失效工具。</strong></p>
 <p><strong>介绍</strong>：集成5种代理工具，包括clash、v2ray、SSR、SS-plugin、SSROT。</p>
@@ -61,7 +68,7 @@
 
 
 <hr>
-<h3 id="SSR客户端下载："><a href="#SSR客户端下载：" class="headerlink" title="SSR客户端下载："></a><strong>SSR客户端下载：</strong></h3><p>第一次电脑系统使用SSR/SS客户端时，如果提示你需要安装NET Framework 4.0，网上搜一下这个东西，安装一下即可。NET Framework 4.0是SSR/SS的运行库，没有这个SSR/SS客户端无法正常运行。有的电脑系统可能会自带NET Framework 4.0。</p>
+<h3 id="SSR客户端下载："><a href="#SSR客户端下载：" class="headerlink" title="*SSR客户端下载："></a>*<em>SSR客户端下载：</em></h3><p>第一次电脑系统使用SSR/SS客户端时，如果提示你需要安装NET Framework 4.0，网上搜一下这个东西，安装一下即可。NET Framework 4.0是SSR/SS的运行库，没有这个SSR/SS客户端无法正常运行。有的电脑系统可能会自带NET Framework 4.0。</p>
 <p>Windows SSR客户端 <a href="https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases">下载地址</a></p>
 <p>Windows SS客户端 <a href="https://github.com/shadowsocks/shadowsocks-windows/releases">下载地址</a></p>
 <p>Mac SSR客户端 <a href="https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases">下载地址</a></p>
@@ -70,8 +77,8 @@
 <h1 id="免费v2ray帐号"><a href="#免费v2ray帐号" class="headerlink" title="免费v2ray帐号"></a>免费v2ray帐号</h1><hr>
 <p><strong>复制节点后，右键点击任务栏v2rayN客户端图标，左键点击从剪贴板批量导入URL，即可一键导入所有v2ray节点。</strong></p>
 <p><strong>VLESS节点</strong>：</p>
-<p>vless://<a href="mailto:&#53;&#54;&#102;&#x38;&#56;&#x35;&#51;&#49;&#x2d;&#56;&#100;&#x35;&#x32;&#x2d;&#x34;&#x38;&#x34;&#99;&#45;&#x61;&#54;&#98;&#101;&#x2d;&#x33;&#97;&#x37;&#x38;&#51;&#56;&#x35;&#x64;&#x30;&#x35;&#52;&#97;&#x40;&#49;&#x30;&#52;&#x2e;&#x31;&#56;&#46;&#48;&#46;&#x35;&#x30;">&#53;&#54;&#102;&#x38;&#56;&#x35;&#51;&#49;&#x2d;&#56;&#100;&#x35;&#x32;&#x2d;&#x34;&#x38;&#x34;&#99;&#45;&#x61;&#54;&#98;&#101;&#x2d;&#x33;&#97;&#x37;&#x38;&#51;&#56;&#x35;&#x64;&#x30;&#x35;&#52;&#97;&#x40;&#49;&#x30;&#52;&#x2e;&#x31;&#56;&#46;&#48;&#46;&#x35;&#x30;</a>:443?encryption=none&amp;security=tls&amp;type=ws&amp;host=nl2.free2222.xyz&amp;path=%2fray#https%3a%2f%2fgithub.com%2fAlvin9999%2fnew-pac%2fwiki%2bVLESS%e8%8d%b7%e5%85%b0CDN</p>
-<p>vless://<a href="mailto:&#51;&#x65;&#x61;&#x64;&#55;&#50;&#x39;&#x34;&#45;&#98;&#55;&#x38;&#50;&#45;&#x34;&#50;&#101;&#52;&#x2d;&#57;&#54;&#56;&#99;&#x2d;&#x66;&#x39;&#x33;&#x63;&#x65;&#x33;&#98;&#x66;&#x62;&#x64;&#x64;&#54;&#x40;&#x31;&#46;&#49;&#46;&#49;&#x2e;&#x30;">&#51;&#x65;&#x61;&#x64;&#55;&#50;&#x39;&#x34;&#45;&#98;&#55;&#x38;&#50;&#45;&#x34;&#50;&#101;&#52;&#x2d;&#57;&#54;&#56;&#99;&#x2d;&#x66;&#x39;&#x33;&#x63;&#x65;&#x33;&#98;&#x66;&#x62;&#x64;&#x64;&#54;&#x40;&#x31;&#46;&#49;&#46;&#49;&#x2e;&#x30;</a>:443?encryption=none&amp;security=tls&amp;type=ws&amp;host=v2rayge2.free3333.xyz&amp;path=%2fray#https%3a%2f%2fgithub.com%2fAlvin9999%2fnew-pac%2fwiki%2bVLESS%e5%be%b7%e5%9b%bd</p>
+<p>vless://<a href="mailto:&#x35;&#x36;&#102;&#56;&#56;&#53;&#x33;&#49;&#45;&#x38;&#100;&#x35;&#x32;&#45;&#52;&#x38;&#x34;&#99;&#x2d;&#x61;&#54;&#98;&#101;&#x2d;&#51;&#x61;&#x37;&#56;&#x33;&#x38;&#x35;&#100;&#48;&#x35;&#52;&#x61;&#x40;&#x31;&#x30;&#52;&#46;&#49;&#56;&#46;&#x30;&#x2e;&#x35;&#48;">&#x35;&#x36;&#102;&#56;&#56;&#53;&#x33;&#49;&#45;&#x38;&#100;&#x35;&#x32;&#45;&#52;&#x38;&#x34;&#99;&#x2d;&#x61;&#54;&#98;&#101;&#x2d;&#51;&#x61;&#x37;&#56;&#x33;&#x38;&#x35;&#100;&#48;&#x35;&#52;&#x61;&#x40;&#x31;&#x30;&#52;&#46;&#49;&#56;&#46;&#x30;&#x2e;&#x35;&#48;</a>:443?encryption=none&amp;security=tls&amp;type=ws&amp;host=nl2.free2222.xyz&amp;path=%2fray#https%3a%2f%2fgithub.com%2fAlvin9999%2fnew-pac%2fwiki%2bVLESS%e8%8d%b7%e5%85%b0CDN</p>
+<p>vless://<a href="mailto:&#x33;&#101;&#97;&#x64;&#x37;&#x32;&#57;&#x34;&#x2d;&#98;&#55;&#56;&#50;&#x2d;&#x34;&#x32;&#x65;&#52;&#x2d;&#57;&#54;&#x38;&#x63;&#45;&#x66;&#x39;&#51;&#x63;&#101;&#x33;&#98;&#x66;&#98;&#x64;&#100;&#54;&#64;&#x31;&#46;&#49;&#x2e;&#49;&#x2e;&#48;">&#x33;&#101;&#97;&#x64;&#x37;&#x32;&#57;&#x34;&#x2d;&#98;&#55;&#56;&#50;&#x2d;&#x34;&#x32;&#x65;&#52;&#x2d;&#57;&#54;&#x38;&#x63;&#45;&#x66;&#x39;&#51;&#x63;&#101;&#x33;&#98;&#x66;&#98;&#x64;&#100;&#54;&#64;&#x31;&#46;&#49;&#x2e;&#49;&#x2e;&#48;</a>:443?encryption=none&amp;security=tls&amp;type=ws&amp;host=v2rayge2.free3333.xyz&amp;path=%2fray#https%3a%2f%2fgithub.com%2fAlvin9999%2fnew-pac%2fwiki%2bVLESS%e5%be%b7%e5%9b%bd</p>
 <p><strong>注</strong>：v2rayN客户端可以直接复制vless节点导入到客户端中，而其它客户端可能需要选择vless节点类型后手动填写信息。vless节点信息如下：</p>
 <p><strong>VLESS节点1</strong>：</p>
 <p>Address(地址): 104.18.0.50</p>
@@ -99,7 +106,7 @@
 
 
 <hr>
-<h3 id="v2ray客户端下载及使用方法"><a href="#v2ray客户端下载及使用方法" class="headerlink" title="v2ray客户端下载及使用方法"></a>v2ray客户端下载及使用方法</h3><p>windows客户端<a href="https://github.com/2dust/v2rayN/releases/latest">v2rayN</a></p>
+<h3 id="v2ray客户端下载"><a href="#v2ray客户端下载" class="headerlink" title="v2ray客户端下载"></a>v2ray客户端下载</h3><p>windows客户端<a href="https://github.com/2dust/v2rayN/releases/latest">v2rayN</a></p>
 <p>Mac客户端<a href="https://github.com/insisttech/v2rayX-copy/releases">v2rayX</a> 或 <a href="https://github.com/yanue/V2rayU/releases">v2rayU</a></p>
 <p>Linux客户端<a href="https://github.com/lhy0403/Qv2ray/releases">Qv2ray</a></p>
 <p>安卓客户端v2ray vpn:<a href="https://d1.w2rss.tk/ssvpn-universal.apk">下载1</a> <a href="https://d2.w2rss.tk/ssvpn-universal.apk">下载2</a></p>
