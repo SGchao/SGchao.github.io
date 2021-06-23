@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://leex.xyz/posts/3.html</loc>
+    
+    <lastmod>2021-06-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://leex.xyz/posts/2.html</loc>
     
     <lastmod>2021-06-22</lastmod>
@@ -77,6 +84,13 @@
   
   <url>
     <loc>https://leex.xyz/categories/Hexo/</loc>
+    <lastmod>2021-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://leex.xyz/categories/edu/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
