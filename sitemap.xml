@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://leex.xyz/posts/2.html</loc>
+    <loc>https://leex.xyz/posts/2.html</loc>
     
     <lastmod>2021-06-22</lastmod>
     
   </url>
   
   <url>
-    <loc>http://leex.xyz/download/index.html</loc>
+    <loc>https://leex.xyz/download/index.html</loc>
     
     <lastmod>2021-06-19</lastmod>
     
   </url>
   
   <url>
-    <loc>http://leex.xyz/posts/1.html</loc>
+    <loc>https://leex.xyz/posts/1.html</loc>
     
     <lastmod>2021-06-18</lastmod>
     
   </url>
   
   <url>
-    <loc>http://leex.xyz/about/index.html</loc>
+    <loc>https://leex.xyz/about/index.html</loc>
     
     <lastmod>2021-06-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://leex.xyz/tags/index.html</loc>
+    <loc>https://leex.xyz/tags/index.html</loc>
     
     <lastmod>2021-06-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://leex.xyz/friends/index.html</loc>
+    <loc>https://leex.xyz/friends/index.html</loc>
     
     <lastmod>2021-06-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://leex.xyz/categories/index.html</loc>
+    <loc>https://leex.xyz/categories/index.html</loc>
     
     <lastmod>2021-06-14</lastmod>
     
@@ -52,7 +52,7 @@
   
 
   <url>
-    <loc>http://leex.xyz/</loc>
+    <loc>https://leex.xyz/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -60,14 +60,14 @@
 
   
   <url>
-    <loc>http://leex.xyz/tags/Start/</loc>
+    <loc>https://leex.xyz/tags/Start/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://leex.xyz/tags/%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://leex.xyz/tags/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -76,14 +76,14 @@
 
   
   <url>
-    <loc>http://leex.xyz/categories/Hexo/</loc>
+    <loc>https://leex.xyz/categories/Hexo/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://leex.xyz/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <loc>https://leex.xyz/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
