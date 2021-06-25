@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>朝的个人博客</title>
+  <title>FreePassage!</title>
   
   
   <link href="https://leex.xyz/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://leex.xyz/</id>
   
   <author>
-    <name>上官朝</name>
+    <name>Mr.Lee</name>
     
   </author>
   
