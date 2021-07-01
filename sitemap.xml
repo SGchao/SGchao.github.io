@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://leex.xyz/posts/2.html</loc>
+    
+    <lastmod>2021-07-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://leex.xyz/about/index.html</loc>
     
     <lastmod>2021-06-25</lastmod>
@@ -23,23 +30,9 @@
   </url>
   
   <url>
-    <loc>https://leex.xyz/posts/998.html</loc>
-    
-    <lastmod>2021-06-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://leex.xyz/posts/3.html</loc>
     
     <lastmod>2021-06-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://leex.xyz/posts/2.html</loc>
-    
-    <lastmod>2021-06-22</lastmod>
     
   </url>
   
@@ -81,7 +74,7 @@
 
   <url>
     <loc>https://leex.xyz/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -89,28 +82,21 @@
   
   <url>
     <loc>https://leex.xyz/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://leex.xyz/tags/Start/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://leex.xyz/tags/%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2021-06-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://leex.xyz/tags/%E8%84%B6%E5%8A%9D/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -119,21 +105,21 @@
   
   <url>
     <loc>https://leex.xyz/categories/Hexo/</loc>
-    <lastmod>2021-06-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://leex.xyz/categories/edu/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://leex.xyz/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-07-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://leex.xyz/categories/edu/</loc>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
